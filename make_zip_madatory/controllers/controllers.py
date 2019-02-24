@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from odoo import http
 
-class myModule(http.Controller):
-    @http.route('/my_module/', auth='public')
+class Cloudypedia(http.Controller):
+    @http.route('/make_zip_mandatory/', auth='public')
     def index(self, **kw):
         return "Hello, world"
 

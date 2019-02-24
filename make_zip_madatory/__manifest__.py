@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "my_module",
+    'name': "make_zip_mandatory",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        This module makes the zip field required at checkout """,
 
     'description': """
-        Long description of module's purpose
+        This module depends on website_sale, it add the zip field at checkout to the
+        list of mandatory fields in website_sale
     """,
 
     'author': "Cloudypedia",
@@ -16,7 +16,7 @@
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/11.0/odoo/addons/base/module/module_data.xml
     # for the full list
-    'category': 'Uncategorized',
+    'category': 'Addon',
     'version': '0.1',
 
     # any module necessary for this one to work correctly
